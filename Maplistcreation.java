@@ -31,14 +31,13 @@ class Maplistcreation {
                 }
             }
         }
-        System.out.println("List of Maps"+listOfMaps);
+        System.out.println(listOfMaps);
 
     }
 
     public static HashMap<String, Integer> mapCreation(String name, Integer marks) {
         HashMap<String, Integer> createdMap = new HashMap<>();
         createdMap.put(name, marks);
-        // System.out.println(createdMap);
         return createdMap;
     }
 
